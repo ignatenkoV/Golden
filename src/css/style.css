@@ -1,3 +1,79 @@
-.logo {
-	color: red;
+html, body {
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: #777777;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+}
+
+h2 {
+  color: #222222;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.container-home {
+  background: #000000 url(../img/home/home-bg.png) center center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+header {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 45px;
+}
+header .menu {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .menu li {
+  margin-left: 40px;
+}
+
+.home {
+  text-align: center;
+}
+.home h2 {
+  padding-top: 212px;
+}
+.home h1 {
+  padding-top: 52px;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 84px;
+  color: #fff;
+  padding: 20px 50px;
+  background-color: #fed136;
+}
+
+.button:hover {
+  color: #fed136;
+  background-color: #fff;
+  text-decoration: none;
+  margin-bottom: inherit;
 }
