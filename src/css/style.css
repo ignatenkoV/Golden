@@ -9,6 +9,7 @@ h1 {
   color: #ffffff;
   font-size: 75px;
   font-weight: 700;
+  font-family: Montserrat;
   text-transform: uppercase;
   letter-spacing: -1.88px;
 }
@@ -24,6 +25,7 @@ h2 {
 .container-home {
   background: #000000 url(../img/home/home-bg.png) center center no-repeat;
   background-size: cover;
+  height: 100vh;
   color: #ffffff;
   background-attachment: fixed;
   margin: 0;
@@ -39,7 +41,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 45px;
+  padding: 25px;
 }
 header .menu {
   display: -moz-flex;
@@ -51,27 +53,49 @@ header .menu {
 }
 header .menu li {
   margin-left: 40px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+header .menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+header .menu a:hover {
+  color: #fed136;
 }
 
 .home {
   text-align: center;
 }
 .home h2 {
-  padding-top: 212px;
+  padding-top: 157px;
+  color: #fff;
+  font-family: "Sedgwick Ave";
+  font-weight: 400;
+  margin: 0;
 }
 .home h1 {
-  padding-top: 52px;
+  margin: 0;
+  padding-top: 20px;
 }
 
-.button {
+.button a {
   display: inline-block;
-  padding-top: 84px;
-  color: #fff;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 55px;
+  border: none solid #000000;
   padding: 20px 50px;
   background-color: #fed136;
+  text-decoration: none;
+  color: #fff;
 }
 
-.button:hover {
+.button a:hover {
   color: #fed136;
   background-color: #fff;
   text-decoration: none;
